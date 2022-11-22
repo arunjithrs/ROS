@@ -30,7 +30,6 @@ catkin_make
 ``source ~/catkin_ws/devel/setup.bash``
 
 ### Create package for 
-goto
 ```
 cd ~/catkin_ws/src
 catkin_create_pkg my_robot_controller rospy roscpp turtlesim
