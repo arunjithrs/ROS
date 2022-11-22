@@ -1,6 +1,6 @@
 # ROS
 
-### installation
+### Installation
 install ros1 using follow url
 http://wiki.ros.org/noetic/Installation
 
@@ -29,5 +29,19 @@ catkin_make
  add the source file in bashrc 
 ``source ~/catkin_ws/devel/setup.bash``
 
-### create package for 
- 
+### Create package for 
+goto
+```
+cd ~/catkin_ws/src
+catkin_create_pkg my_robot_controller rospy roscpp turtlesim
+```
+``CMakeLists.txt``  ``my_robot_controller``
+
+install vscode (sudo snap install code --classic)
+
+build package
+```
+cd ~/catkin_ws
+catkin_make
+```
+
