@@ -39,7 +39,7 @@ catkin_create_pkg my_robot_controller rospy roscpp turtlesim
 
 install vscode (sudo snap install code --classic)
 
-build package
+### build package
 ```
 cd ~/catkin_ws
 catkin_make
